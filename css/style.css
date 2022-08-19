@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+  background: #eeeeee;
+}
+
+#card-wrapper {
+  font-family: 'Open Sans', sans-serif ;
+  font-weight: 500;
+  border-radius: 10px;
+  height: 80vh;
+  background: #ffffff;
+  box-shadow:  17px 17px 34px #d9d9d9,-17px -17px 34px #ffffff;
+  display: flex;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  font-weight: 600;
+  height: 80vh;
+}
+
+#sidebar--menu{
+  list-style: none;
+}
+
+#sidebar--menu :hover{
+  border-left: #3b87e0 solid 2px;
+}
+
+#sidebar--menu li{
+  font-size: 12px;
+  padding-left: 32px;
+}
+
+#sidebar--league-logo {
+  display: block;
+  width: 48%;
+  margin: 32px auto;
+}
+
+#sidebar--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.socials-logo {
+  display: block;
+  width: 12px;
+  margin: 10px;
+}
+
+#card--main{
+  position: relative;
+}
+
+#topbar{
+    margin: 0px;
+  padding: 40px 40px 42% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    background: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(4px);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#topbar--fixture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: 600;
+  /* border: 2px dotted white; */
+}
+
+#topbar--fixture > img{
+  height: 46px;
+  margin:0 16px;
+}
+
+#topbar--menu{
+  list-style: none;
+  margin-bottom: 0;
+}
+
+#topbar--menu :hover{
+  border-left: whitesmoke solid 2px;
+}
+
+#topbar--menu li{
+  font-size: 12px;
+  padding-left: 32px;
+  color: whitesmoke;
+  margin-bottom: 2px;
+}
